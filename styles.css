@@ -1,0 +1,65 @@
+/* body{
+    background-color: navy;
+    color: crimson;
+    font-size: 50px;
+}
+a:link{
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+a:visited{
+    color: cadetblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+    background-color:transparent;
+    text-decoration: none;
+}
+a:active{
+    color:yellow;
+    background-color: transparent;
+    text-decoration: none
+    ;
+} */
+
+
+/* The nav bar design style is here */
+
+.topnav{
+    background-color:#333;
+    overflow: hidden;
+    margin: 40px;
+}
+
+.topnav a{
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    color: white;
+    margin: 5px;
+    background-color: grey;
+    border-radius: 50%;
+    
+}
+
+.topnav a:hover{
+    background-color: red;
+    color: cadetblue;
+}
+
+.topnav a.active{
+    background-color: cadetblue;
+    color: chartreuse;
+}
+
+.topnav a.active:hover{
+    background-color: red;
+    color: cadetblue;
+}
